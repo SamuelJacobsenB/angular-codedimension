@@ -1,0 +1,50 @@
+.app_div {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 700px;
+  min-width: 500px;
+  height: 80%;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px black;
+
+  .app_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+
+    label {
+      text-align: left;
+      font-size: 22px;
+      width: 100%;
+      margin: 5px;
+    }
+
+    .app_input {
+      font-size: 20px;
+      width: 100%;
+      height: 40px;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+
+    .btn_submit {
+      background-color: rgb(33, 33, 255);
+      text-align: center;
+      font-size: 22px;
+      color: white;
+      width: 200px;
+      height: 50px;
+      padding: 10px;
+    }
+  }
+}
